@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "haksangbu",
+  "private_key_id": "df228fee7d37600a131909f9c89c616af2985ea9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/UC4PgKmfovQm\nxdWjXSqDzgVM1LIfw/KdTP3EnyuqXU1jKzHvz6fP+Jr1CgeR23PgAGFvnuvGvRHx\n0XaxQ6rsh2TQP5XtEhG5RsqqxSl+IMLzILKYrsRQzQVZ6j1RCGai5EvivL7YMJTL\nsZANnf64v5xTIWvA0I+GnkUvm7nOK8Qjic/5TiOfuXYhp67Acf6qBeC5Mzl/DGYs\nvgcXMH3t8wpIqN0wdGi2dO75doSeA/Jy28Iw+l7UNzeORQqKEeij4/o95XjjzJ91\ntzfskyiStFDz5Ny8OxoFMUvMQc+qIktJKZv08Rjfy8jrq8WZXX1iHt1NpbAcytQE\nPXzMUY+zAgMBAAECgf8OgiQdS0QwXxB4fszcc2A2fGYIfaUmxbEdzVu8VMD0jRUz\nV3KWdFLKcbx8sjK9alrFBrtmjZJsepNoxGAZq5eTmcmZ42NsUGyYRVwNe3fwxkJt\npr70odimJ+c8xflqnVAMOpIpgLQ74A2I1XzebG9nd37D1IGHo7WWkQ8U9irNjSNL\nva2f/uQeRE40/TR5bhW/TUEdIGpjHQoxAMWl7gEHNS/745yOg/oAvgMhwcP7IMOG\njiSf95UNz5/rdSpQGgO8TtgHgOr5mi7UiUU1VflNmPy1oZ5IhEFwWFRJu49R1bP5\nAAx5XOho0BzATmDDwaIogLTTKMcZPIEoErmSfgECgYEA7LpT2wgWgOUpNKCf05H0\nfa+I2F8qfFwE1Rq9uSNaht9Jy709gKKJKpLmoJkUuiIHaJ+sb1o8j0LsiZYqPdqX\nIqw9pihmPus5enJr2hXCbHOXLfGwQ+dZH6N2VLRuFGJkf2ch8bUQrcBusNfSR1pP\nwky5NIjsFRIfdsb9f6RXNvsCgYEAzuNcT/OkQFgYWe6iz2NbwazWVdn53njouQXZ\nqzbUl8dKCvftYpfUUjoT2DPB3+1VzsdraquwRBb5kL8hBB/gm1BqtyPIzkDVT2uT\nwDbgmDhn/DNRtYtE6d2PyePrzoHuUyq+VbTEC12jdKqUbJhQ+lV6Jgx0lYt6FmdJ\nt8p3jKkCgYEAqVq/hPHrT3kiGnFTBgPj2krK5qhmd6NJHb/MvPdK2zRA0g3nQvCE\nmr2PWpNJXcPccv/QV7VBn+fr2p5gR/Hqr7ZzQDyksRyM+UmEWPe6KOYk4IyIYnvO\nqbDCheSy38hoRzDb+tRjQzpotgEggUVdzA4hbTELXCOj+NBxKHDEqCMCgYAFDqW5\nBpmjQQQHXr/4FdOuXk02+AcVmxsFOtFhUAvOUf7LWdghqthz0hueE1XP5XtNfK5x\ngxTh9TXQhfuGoEjbQxH4vBUyhX8xW83WywCed/KCxbZfm7HpjZLwOnQPLjnnKopQ\nigSoyncuaOUL6oVAOUqtF2zaIvivB4NTzM0zUQKBgQC9W676ds2vaTYmGOBlIwth\n5Xf/6ZtDZ2yPPc5YHBFXwbkXwzn2wmSRqWaOMTycSjbfLoko30HhB2DlXamO6QzJ\n/s75sS6B0zyQtCE3GNzwNI8pBHBG70p7S8AMuW6H3YzAvzVkxnlWvJ2GDWUD3wvn\ndVY3EagQdTR8N0c3PdACgw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "haksangbu-service-account@haksangbu.iam.gserviceaccount.com",
+  "client_id": "111540169197762157010",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/haksangbu-service-account%40haksangbu.iam.gserviceaccount.com"
+}
