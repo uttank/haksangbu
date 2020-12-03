@@ -1,0 +1,7 @@
+set GOOGLE_APPLICATION_CREDENTIALS=c:\Users\yhpark\work\haksangbu\vision.json
+
+gcloud auth application-default print-access-token > token.txt
+
+set /p token=<token.txt
+
+curl -X POST -H "Authorization: Bearer "%token% -H "Content-Type: application/json; charset=utf-8" https://vision.googleapis.com/v1/images:annotate -d @request.json
