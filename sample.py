@@ -8,7 +8,7 @@ from google.cloud import vision
 client = vision.ImageAnnotatorClient()
 
 # The name of the image file to annotate
-file_name = os.path.abspath('./wakeupcat.jpg')
+file_name = os.path.abspath('./data.jpg')
 
 # Loads the image into memory
 with io.open(file_name, 'rb') as image_file:
@@ -16,10 +16,21 @@ with io.open(file_name, 'rb') as image_file:
 
 image = vision.Image(content=content)
 
-# Performs label detection on the image file
-response = client.label_detection(image=image)
-labels = response.label_annotations
+# Performs text detection on the image file
+response = client.text_detection(image=image)
+    texts = response.text_annotations
+    print('Texts:')
 
-print('Labels:')
-for label in labels:
-    print(label.description)
+    for text in texts:
+        print('\n"{}"'.format(text.description))
+
+        vertices = (['({},{})'.format(vertex.x, vertex.y)
+                    for vertex in text.bounding_poly.vertices])
+
+        print('bounds: {}'.format(','.join(vertices)))
+
+    if response.error.message:
+        raise Exception(
+            '{}\nFor more info on error messages, check: '
+            'https://cloud.google.com/apis/design/errors'.format(
+                response.error.message))
