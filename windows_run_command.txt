@@ -1,5 +1,7 @@
 set GOOGLE_APPLICATION_CREDENTIALS=c:\Users\yhpark\work\haksangbu\vision.json
 
+export GOOGLE_APPLICATION_CREDENTIALS=./vision.json => vscode
+
 gcloud auth application-default print-access-token > token.txt
 
 set /p token=<token.txt
